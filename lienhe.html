@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - CLB SAP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <style>
+        .page-hero {
+            background-color: #0056b3;
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+            margin-bottom: 30px;
+            background-image: url('https://placehold.co/1200x300/0056b3/ffffff');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+        .page-hero .content {
+            position: relative;
+            z-index: 1;
+        }
+        .page-hero h1 {
+            font-size: 3em;
+            font-weight: 700;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="container">
+            <a href="trangchu.html" class="logo">CLB SAP</a>
+            <nav>
+                <ul>
+                    <li><a href="gioithieu.html">Giới thiệu CLB</a></li>
+                    <li><a href="kienthucsap.html">Kiến thức SAP</a></li>
+                    <li><a href="Duanhoatdong.html">Dự án - Hoạt động</a></li>
+                    <li><a href="workshopwebinbar.html">Workshop & Webinar</a></li>
+                    <li><a href="thanhvien.html">Thành viên</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BREADCRUMBS -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="trangchu.html">Trang chủ</a> <span>/</span> Liên hệ
+        </div>
+    </div>
+
+    <!-- PAGE HERO SECTION -->
+    <section class="page-hero">
+        <div class="content">
+            <h1>Liên hệ với chúng tôi</h1>
+        </div>
+    </section>
+
+    <!-- SECTION: CHƯƠNG TRÌNH TUYỂN THÀNH VIÊN MỚI (NẾU CÓ) -->
+    <section class="main-content">
+        <div class="container">
+            <div class="recruitment-banner">
+                <h2>Tuyển thành viên mới!</h2>
+                <p>CLB SAP đang tìm kiếm những thành viên đam mê công nghệ và muốn phát triển trong lĩnh vực SAP. Hãy tham gia cùng chúng tôi để cùng học hỏi và kiến tạo!</p>
+                <a href="thanhvien.html" class="btn">Đăng ký ngay</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: THÔNG TIN LIÊN HỆ & FORM LIÊN HỆ -->
+    <section class="main-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>Nếu bạn có bất kỳ câu hỏi nào về CLB, các hoạt động, hoặc cần hỗ trợ về kiến thức SAP, đừng ngần ngại liên hệ với chúng tôi qua các kênh dưới đây.</p>
+                    <p><strong>Email:</strong> contact@clbsap.com</p>
+                    <p><strong>Điện thoại:</strong> 0123 456 789</p>
+                    <p><strong>Địa chỉ:</strong> [Địa chỉ trường/văn phòng CLB của bạn]</p>
+                    <p><strong>Giờ làm việc:</strong> Thứ 2 - Thứ 6: 8:00 AM - 5:00 PM</p>
+                    <div class="social-icons">
+                        <a href="#" target="_blank">FB</a>
+                        <a href="#" target="_blank">In</a>
+                        <a href="#" target="_blank">YT</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Gửi tin nhắn cho chúng tôi</h3>
+                    <form action="#" method="POST">
+                        <label for="name">Họ và tên:</label>
+                        <input type="text" id="name" name="name" placeholder="Ví dụ: Nguyễn Văn A" required>
+
+                        <label for="email">Email của bạn:</label>
+                        <input type="email" id="email" name="email" placeholder="Ví dụ: email@example.com" required>
+
+                        <label for="subject">Chủ đề:</label>
+                        <input type="text" id="subject" name="subject" placeholder="Ví dụ: Góp ý về website" required>
+
+                        <label for="message">Nội dung tin nhắn:</label>
+                        <textarea id="message" name="message" placeholder="Viết tin nhắn của bạn tại đây..." required></textarea>
+
+                        <button type="submit">Gửi tin nhắn</button>
+                    </form>
+                    <p style="text-align: center; margin-top: 20px; font-size: 0.9em; color: #666;">
+                        Chúng tôi sẽ phản hồi trong vòng 24-48 giờ làm việc.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section about">
+                <h3>Về CLB SAP</h3>
+                <p>Nơi chia sẻ kiến thức SAP và phát triển kỹ năng cho sinh viên.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Liên kết nhanh</h3>
+                <ul>
+                    <li><a href="gioithieu.html">Giới thiệu về SAP</a></li>
+                    <li><a href="kienthucsap.html">Lộ trình học tập</a></li>
+                    <li><a href="Duanhoatdong.html">Dự án thực hành</a></li>
+                    <li><a href="thanhvien.html">Tuyển thành viên mới</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Liên hệ</h3>
+                <p>Email: contact@clbsap.com</p>
+                <p>SĐT: 0123 456 789</p>
+                <p>Địa chỉ: [Địa chỉ trường/văn phòng CLB]</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Theo dõi chúng tôi</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank">FB</a>
+                    <a href="#" target="_blank">In</a>
+                    <a href="#" target="_blank">YT</a>
+                </div>
+                <p><a href="#">Góp ý & Phản hồi</a></p>
+                <p><a href="#">Form liên hệ</a></p>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            &copy; 2025 CLB SAP. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
